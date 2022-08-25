@@ -1,4 +1,4 @@
-#Pasos para seguir en git #
+Pasos para seguir en git #
 
 1. En tu proyecto iniciar git con el comando.
 ## git init ##
@@ -16,16 +16,19 @@
 ## git remote add origin + nombre del SSH del repositorio creado ##
 
 6. Para cambiar origen y crear un nuevo branch
-## gt remote rm origin ##
-esto debe dar un blanco 
+## git remote rm origin ##
+esto debe dar un blanco
 
 7. Para agregar una nueva rama o branch
 ## git checkout -b + más nuevo nombre del branch ##
 
 8. Para agregar 
-## add . ##
+## add . 
 
-9. Para commentar 
+9. para chequear el si esta asignado a un repositorio
+##git remote -v
+
+9. Para commentar
 ## git comment -m ##
 
 10. Para subir los archivos
@@ -38,16 +41,26 @@ esto debe dar un blanco
 12. Volver al proyecto y hacer un pull para actulizar
 ## git pull ##
 
-13. Si estas trabajando con otro, entonces una vez que el otro a comentado y le has revisado y el 
-acepta los comentario y hace el marge, hay que hacer lo siguiente
+13. Si estas trabajando con otro, entonces una vez que el otro a comentado y le has revisado y el
+    acepta los comentario y hace el marge, hay que hacer lo siguiente
 ## git pull main ## [para actualiar]
 
-14. Luego puedes borrar el rama en la que estabas trabajando. 
-## git + nombre de rama + -b ##
-{sino borra forzar con -B}
+14. Luego puedes borrar el rama en la que estabas trabajando.
+## git + nombre de rama + -d ##
+{sino borra forzar con -D}
 
 15. Para chequear el branch
 ## git branch ##
 
 16. por lo de más buscar en internet. Se puede hacer muchas cosas por ahí
 
+17. para cambiar al main
+## gt switch main ##
+
+18. pull the main la última versión actualizada
+## git pull the main ##
+
+19. La idea de git es crear un repositorio, subir un proyecto ahí, crear ramas de trabajos uno o varios,
+    en seguida, cargar a las ramas todo lo que has trabajado, cuando ha sido revisado por un tercero
+    hacer la fusión o merge, después de fucionar para que se convierta en la matriz principal, ese punto de tiempo jalar a tu ordenador para
+    trabajar sobre esa versión, subir, revisar y bajar y de esa manera todo el proyecto.
